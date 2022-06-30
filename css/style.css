@@ -56,15 +56,20 @@ a,a:hover{
 	background: #000;
 }
 .footer .inner{}
-.footer .inner .left{}
-.footer .inner .left h4{
+.footer .inner .left{
+	float: left;
+}
+.footer .inner h4{
 	font-size: 16px;
 	color: #fff;
 }
-.footer .inner .left a{
+.footer .inner a{
 	font-size: 16px;
 	color: #4a47ff;
 }
-.footer .inner .left a:hover{
+.footer .inner a:hover{
 	color: #1ac1aa;
+}
+.footer .inner .right{
+	float: right;
 }
